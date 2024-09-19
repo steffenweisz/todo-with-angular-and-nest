@@ -1,3 +1,8 @@
+### TODO Anwendung mit Front- und Backend
+
+This TODO App is a Sample project learning Angular and NestJS. 
+
+
 ### Frontend: TodoFrontend
 - **Framework**: Angular CLI (Version 18.2.4)
 - **Entwicklungsserver**: Starten mit `ng serve` und zugänglich unter `http://localhost:4200/`. Automatisches Neuladen bei Änderungen.
