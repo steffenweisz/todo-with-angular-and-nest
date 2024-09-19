@@ -1,9 +1,21 @@
 ### TODO Anwendung mit Front- und Backend
 
-This TODO App is a Sample project learning Angular and NestJS. 
+This TODO-App is a sample project to learn Angular and NestJS.
 
+#### Backend starten
+
+    cd todo-backend
+    npm install
+    npm run start
+
+#### Frontend starten
+
+    cd todo-frontend
+    npm install
+    npm run start
 
 ### Frontend: TodoFrontend
+
 - **Framework**: Angular CLI (Version 18.2.4)
 - **Entwicklungsserver**: Starten mit `ng serve` und zugänglich unter `http://localhost:4200/`. Automatisches Neuladen bei Änderungen.
 - **Code-Generierung**: Neue Komponenten, Direktiven, Pipes, Services, Klassen, Guards, Interfaces, Enums und Module können mit `ng generate` erstellt werden.
@@ -11,6 +23,7 @@ This TODO App is a Sample project learning Angular and NestJS.
 - **Tests**: Unit-Tests mit `ng test` (Karma) und End-to-End-Tests mit `ng e2e` (zusätzliche Pakete erforderlich).
 
 ### Backend: NestJS
+
 - **Framework**: NestJS, ein fortschrittliches Node.js-Framework für effiziente und skalierbare serverseitige Anwendungen.
 - **Logo**: ![NestJS Logo](https://nestjs.com/img/logo-small.svg)
 - **Build-Status**: ![CircleCI](https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456)
