@@ -1,0 +1,28 @@
+<div>
+  <h2>Todo List</h2>
+  <form
+    (ngSubmit)="
+      addTodo(title.value, description.value);
+      title.value = '';
+      description.value = ''
+    "
+  >
+    <input type="text" #title placeholder="Title" required />
+    <input type="text" #description placeholder="Description" />
+    <button type="submit">Add Todo</button>
+  </form>
+
+  <ul>
+    @for ( todo of todos; track todo.id) {
+    <li>
+      <input
+        type="checkbox"
+        [checked]="todo.done"
+        (change)="toggleTodoDone(todo)"
+      />
+      <span>{{ todo.title }} - {{ todo.description }}</span>
+      <button (click)="deleteTodo(todo.id)">Delete</button>
+    </li>
+    }
+  </ul>
+</div>
