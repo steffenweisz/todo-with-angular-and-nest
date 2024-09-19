@@ -14,6 +14,8 @@ This TODO-App is a sample project to learn Angular and NestJS.
     npm install
     npm run start
 
+After the frontend has successfully started, you can access the app in the browser at http://localhost:4200/.
+
 ### Frontend: TodoFrontend
 
 - **Framework**: Angular CLI (Version 18.2.4)
